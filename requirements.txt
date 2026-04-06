@@ -1,0 +1,35 @@
+# Local Business Finder - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core web framework
+streamlit>=1.28.0
+
+# JavaScript execution for geolocation
+streamlit-js-adapter>=0.1.1
+
+# HTTP requests for Google Places API
+requests>=2.31.0
+
+# Data handling and validation
+dataclasses>=0.6; python_version < "3.7"
+
+# JSON handling (built-in, but listed for clarity)
+# json - built-in
+
+# Date/time handling (built-in)
+# datetime - built-in
+
+# Regular expressions (built-in)
+# re - built-in
+
+# File system operations (built-in)
+# pathlib - built-in
+
+# UUID generation (built-in)
+# uuid - built-in
+
+# Type hints (built-in in Python 3.5+)
+# typing - built-in
+
+# Environment variable handling (built-in)
+# os - built-in

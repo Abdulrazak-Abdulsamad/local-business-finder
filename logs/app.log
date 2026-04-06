@@ -1,0 +1,130 @@
+2026-04-04 13:56:25,002 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 13:56:26,086 - api - INFO - API Response: 200
+2026-04-04 13:56:26,087 - api - ERROR - API error in nearby_search: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2026-04-04 13:56:26,087 - api - ERROR - Unexpected error in API search: 'bool' object is not callable
+2026-04-04 13:57:11,542 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 13:57:12,455 - api - INFO - API Response: 200
+2026-04-04 13:57:12,455 - api - ERROR - API error in text_search: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2026-04-04 13:57:12,455 - api - ERROR - Unexpected error in API search: 'bool' object is not callable
+2026-04-04 13:57:27,337 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 13:57:28,037 - api - INFO - API Response: 200
+2026-04-04 13:57:28,037 - api - ERROR - API error in nearby_search: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2026-04-04 13:57:28,037 - api - ERROR - Unexpected error in API search: 'bool' object is not callable
+2026-04-04 13:57:47,914 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 13:57:48,911 - api - INFO - API Response: 200
+2026-04-04 13:57:48,911 - api - ERROR - API error in nearby_search: You must enable Billing on the Google Cloud Project at https://console.cloud.google.com/project/_/billing/enable Learn more at https://developers.google.com/maps/gmp-get-started
+2026-04-04 13:57:48,911 - api - ERROR - Unexpected error in API search: 'bool' object is not callable
+2026-04-04 14:04:16,334 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 14:04:17,520 - api - INFO - API Response: 200
+2026-04-04 14:04:17,520 - api - ERROR - API error in nearby_search: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 14:04:17,520 - api - WARNING - Google API error, falling back to local data: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 15:55:32,929 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:32,937 - api - ERROR - API error in text_search: Connection error
+2026-04-04 15:55:32,937 - api - INFO - Retrying text_search after 2s (attempt 1)
+2026-04-04 15:55:36,943 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:36,945 - api - ERROR - API error in text_search: Connection error
+2026-04-04 15:55:36,945 - api - INFO - Retrying text_search after 4s (attempt 2)
+2026-04-04 15:55:44,949 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:44,951 - api - ERROR - API error in text_search: Connection error
+2026-04-04 15:55:44,951 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:55:52,435 - api - WARNING - Max retries exceeded for text_search, falling back to mock data
+2026-04-04 15:55:52,435 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:52,436 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:55:52,466 - api - WARNING - Max retries exceeded for text_search, falling back to mock data
+2026-04-04 15:55:52,467 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:52,470 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:55:55,809 - api - WARNING - Max retries exceeded for text_search, falling back to mock data
+2026-04-04 15:55:55,809 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:55,810 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:55:57,353 - api - WARNING - Max retries exceeded for text_search, falling back to mock data
+2026-04-04 15:55:57,354 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 15:55:57,355 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:56:03,102 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 15:56:03,105 - api - ERROR - API error in nearby_search: Connection error
+2026-04-04 15:56:03,105 - api - INFO - Retrying nearby_search after 4s (attempt 2)
+2026-04-04 15:56:11,114 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 15:56:11,116 - api - ERROR - API error in nearby_search: Connection error
+2026-04-04 15:56:11,116 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 15:56:15,453 - api - WARNING - Max retries exceeded for nearby_search, falling back to mock data
+2026-04-04 15:56:15,454 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 15:56:15,466 - api - WARNING - Google API error, falling back to local data: Connection error
+2026-04-04 16:28:35,338 - api - WARNING - Max retries exceeded for nearby_search, falling back to mock data
+2026-04-04 16:28:35,338 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 16:28:35,961 - api - INFO - API Response: 200
+2026-04-04 16:28:35,961 - api - WARNING - Google API error, falling back to local data: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 16:30:19,546 - api - WARNING - Max retries exceeded for nearby_search, falling back to mock data
+2026-04-04 16:30:19,547 - api - INFO - API Request: nearbysearch - params: ['location', 'language', 'radius', 'key']
+2026-04-04 16:30:21,388 - api - INFO - API Response: 200
+2026-04-04 16:30:21,389 - api - WARNING - Google API error, falling back to local data: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 20:19:16,696 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:19:18,114 - api - INFO - Foursquare API Response: 401
+2026-04-04 20:19:18,114 - api - ERROR - API error in search: Foursquare API authentication failed. Check API key.
+2026-04-04 20:19:18,114 - api - WARNING - Foursquare API error, trying Google: Foursquare API authentication failed. Check API key.
+2026-04-04 20:33:42,551 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:33:44,034 - api - INFO - Foursquare API Response: 410
+2026-04-04 20:33:44,034 - api - ERROR - API error in search: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:33:44,034 - api - INFO - Retrying search after 2s (attempt 1)
+2026-04-04 20:33:48,041 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:33:49,666 - api - INFO - Foursquare API Response: 410
+2026-04-04 20:33:49,666 - api - ERROR - API error in search: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:33:49,666 - api - INFO - Retrying search after 4s (attempt 2)
+2026-04-04 20:33:57,676 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:33:59,291 - api - INFO - Foursquare API Response: 410
+2026-04-04 20:33:59,291 - api - ERROR - API error in search: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:33:59,291 - api - WARNING - Foursquare API error, trying Google: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:34:15,185 - api - WARNING - Max retries exceeded for search, falling back to mock data
+2026-04-04 20:34:15,185 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:34:28,680 - api - INFO - Foursquare API Response: 410
+2026-04-04 20:34:28,680 - api - WARNING - Foursquare API error, trying Google: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.1156%2C7.4824&query=hotel&radius=10000&limit=20
+2026-04-04 20:34:44,155 - api - WARNING - Max retries exceeded for search, falling back to mock data
+2026-04-04 20:34:44,155 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:34:45,679 - api - INFO - Foursquare API Response: 410
+2026-04-04 20:34:45,679 - api - WARNING - Foursquare API error, trying Google: 410 Client Error: Gone for url: https://api.foursquare.com/v3/places/search?ll=9.1156%2C7.4824&query=hotel&radius=10000&limit=20
+2026-04-04 20:39:11,110 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:39:12,484 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:39:12,484 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:39:12,484 - api - INFO - Retrying search after 2s (attempt 1)
+2026-04-04 20:39:16,495 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:39:17,659 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:39:17,659 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:39:17,659 - api - INFO - Retrying search after 4s (attempt 2)
+2026-04-04 20:39:25,669 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:39:27,586 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:39:27,586 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:39:27,586 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:39:43,847 - api - WARNING - Max retries exceeded for search, falling back to mock data
+2026-04-04 20:39:43,847 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:39:45,273 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:39:45,273 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.1068%2C7.4474&query=hotel&radius=10000&limit=20
+2026-04-04 20:45:57,070 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 20:45:57,758 - api - INFO - API Response: 200
+2026-04-04 20:45:57,758 - api - ERROR - API error in text_search: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 20:45:57,758 - api - WARNING - Google API error, falling back to local data: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 20:50:04,663 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:06,040 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:06,040 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:50:06,040 - api - INFO - Retrying search after 2s (attempt 1)
+2026-04-04 20:50:10,050 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:11,362 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:11,362 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:50:11,362 - api - INFO - Retrying search after 4s (attempt 2)
+2026-04-04 20:50:19,370 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:21,106 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:21,106 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:50:21,106 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=10000&limit=20
+2026-04-04 20:50:21,644 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:22,740 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:22,740 - api - ERROR - API error in search: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=50000&limit=20
+2026-04-04 20:50:22,740 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.0765%2C7.3986&query=Transcorp+hilton&radius=50000&limit=20
+2026-04-04 20:50:43,665 - api - WARNING - Max retries exceeded for search, falling back to mock data
+2026-04-04 20:50:43,665 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:44,552 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:44,552 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.1156%2C7.4824&query=hotel&radius=50000&limit=20
+2026-04-04 20:50:54,826 - api - WARNING - Max retries exceeded for search, falling back to mock data
+2026-04-04 20:50:54,826 - api - INFO - Foursquare API Request: search - params: ['ll', 'query', 'radius', 'limit']
+2026-04-04 20:50:55,892 - api - INFO - Foursquare API Response: 404
+2026-04-04 20:50:55,893 - api - WARNING - Foursquare API error, trying Google: 404 Client Error: Not Found for url: https://api.foursquare.com/places/v3/search?ll=9.1156%2C7.4824&query=hotel&radius=50000&limit=20
+2026-04-04 20:55:12,233 - api - INFO - API Request: textsearch - params: ['query', 'language', 'location', 'radius', 'key']
+2026-04-04 20:55:13,398 - api - INFO - API Response: 200
+2026-04-04 20:55:13,398 - api - ERROR - API error in text_search: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.
+2026-04-04 20:55:13,398 - api - WARNING - Google API error, falling back to local data: Google API billing not enabled. Please enable billing in Google Cloud Console. Falling back to mock data.

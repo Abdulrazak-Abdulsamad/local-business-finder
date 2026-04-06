@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bookmark_20260404115431",
+    "business_id": "place_603072636",
+    "business_name": "First Bank of Nigeria",
+    "business_category": "Bank",
+    "business_address": "82 Ahmadu Bello Avenue, Central Business District, Abuja, FCT 900001",
+    "business_rating": 3.8,
+    "bookmarked_at": "2026-04-04T11:54:31.891185"
+  },
+  {
+    "id": "bookmark_20260404135800",
+    "business_id": "place_196624698",
+    "business_name": "Access Bank ATM",
+    "business_category": "ATM",
+    "business_address": "Central Business District, Abuja, FCT 900001",
+    "business_rating": 3.9,
+    "bookmarked_at": "2026-04-04T13:58:00.517322"
+  },
+  {
+    "id": "bookmark_20260404203451",
+    "business_id": "place_894761787",
+    "business_name": "Golden Tulip Hotel",
+    "business_category": "Hotel",
+    "business_address": "1 Aziz Abdulfattah, Asokoro, Abuja, FCT 900001",
+    "business_rating": 4.7,
+    "bookmarked_at": "2026-04-04T20:34:51.171028"
+  }
+]
