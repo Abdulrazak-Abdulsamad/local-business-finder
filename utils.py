@@ -1,15 +1,3 @@
-"""
-========================================
-LOCAL BUSINESS FINDER - HELPER FUNCTIONS
-========================================
-
-This file contains useful functions that help the app work.
-Think of these as "tools" that other parts of the app can use.
-
-For beginners: These are small, reusable functions that do specific jobs.
-Instead of writing the same code over and over, we put it here
-and call it whenever we need it.
-"""
 
 import re
 from typing import List, Optional
