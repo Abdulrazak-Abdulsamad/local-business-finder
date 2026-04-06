@@ -1,8 +1,3 @@
-"""
-API module for Local Business Finder
-Handles external API calls and business data retrieval
-Includes Google Places API integration, caching, rate limiting, and logging
-"""
 
 import json
 import os
