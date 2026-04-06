@@ -13,29 +13,29 @@ class Business:
     """
     
     # Basic information
-    id: str                    # Unique ID for this business
-    name: str                  # Business name (e.g., "Chicken Republic")
-    category: str              # Type of business (e.g., "Restaurants & Food")
+    id: str                    
+    name: str                  
+    category: str             
     
     # Location information
-    address: str               # Street address
-    city: str                  # City (e.g., "Abuja")
-    state: str                 # State (e.g., "FCT")
-    zip_code: str              # Postal code
+    address: str               
+    city: str                  
+    state: str                 
+    zip_code: str              
     
     # Contact information
-    phone: str                 # Phone number
+    phone: str                 
     
     # Rating and popularity
-    rating: float = 0.0        # Average star rating (0-5)
-    review_count: int = 0      # How many reviews this business has
+    rating: float = 0.0        
+    review_count: int = 0      
     
     # Additional details
-    distance: float = 0.0      # How far from user (in kilometers)
-    price_level: str = "$"     # Price range: $, $$, $$$, $$$$
-    is_open: bool = True       # Is the business currently open?
-    image_url: str = ""        # Link to business photo
-    description: str = ""      # Short description of the business
+    distance: float = 0.0      
+    price_level: str = "$"     
+    is_open: bool = True       
+    image_url: str = ""        
+    description: str = ""      
     
     # Map coordinates (for showing on a map)
     latitude: float = 0.0
@@ -65,15 +65,14 @@ class Business:
         Get star symbols for the rating.
         Example: 4.5 rating becomes "★★★★½"
         """
-        full_stars = int(self.rating)           # Number of full stars
-        half_star = 1 if (self.rating - full_stars) >= 0.5 else 0  # Half star if needed
-        empty_stars = 5 - full_stars - half_star  # Remaining empty stars
+        full_stars = int(self.rating)           
+        half_star = 1 if (self.rating - full_stars) >= 0.5 else 0  
+        empty_stars = 5 - full_stars - half_star  
         return "★" * full_stars + "½" * half_star + "☆" * empty_stars
 
 
-# ============================================
+
 # REVIEW CLASS
-# ============================================
 # This represents a user's review of a business
 
 @dataclass
@@ -84,12 +83,12 @@ class Review:
     Reviews help other users decide which businesses to visit.
     """
     
-    id: str                    # Unique ID for this review
-    business_id: str           # Which business this review is for
-    business_name: str         # Business name (for easy display)
-    user_name: str             # Who wrote the review
-    rating: int                # Star rating (1-5)
-    text: str                  # The actual review text
+    id: str                    
+    business_id: str           
+    business_name: str         
+    user_name: str             
+    rating: int                
+    text: str                  
     created_at: str = field(default_factory=lambda: datetime.now().isoformat())
     
     def to_dict(self):
@@ -117,9 +116,8 @@ class Review:
             return self.created_at
 
 
-# ============================================
+
 # BOOKMARK CLASS
-# ============================================
 # This represents a saved/bookmarked business
 
 @dataclass
@@ -131,12 +129,12 @@ class Bookmark:
     without searching again.
     """
     
-    id: str                    # Unique ID for this bookmark
-    business_id: str           # Which business is bookmarked
-    business_name: str         # Business name (for easy display)
-    business_category: str     # Business category
-    business_address: str      # Business address
-    business_rating: float     # Business rating
+    id: str                    
+    business_id: str           
+    business_name: str       
+    business_category: str    
+    business_address: str      
+    business_rating: float     
     bookmarked_at: str = field(default_factory=lambda: datetime.now().isoformat())
     
     def to_dict(self):
