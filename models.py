@@ -2,12 +2,6 @@
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-
-# ============================================
-# BUSINESS CLASS
-# ============================================
-# This represents a local business (shop, restaurant, etc.)
-
 @dataclass
 class Business:
     """
