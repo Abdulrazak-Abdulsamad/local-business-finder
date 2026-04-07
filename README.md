@@ -1,2 +1,2 @@
 # local-business-finder
-A Streamlit app to find nearby businesses
+Local Business Finder is a Streamlit web application that helps users discover and review local businesses in Abuja, Nigeria. It provides features like business search with filters (category, rating, price, distance), a dashboard view, bookmark management, and user reviews. The app supports both real API data (Google Places, Foursquare) and falls back to mock data when APIs are unavailable.
