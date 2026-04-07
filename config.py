@@ -3,63 +3,43 @@
 import os
 from pathlib import Path
 
-# ============================================
-# Application Settings
-# ============================================
 APP_TITLE = "Abuja Business Finder"
 APP_ICON = "/Users/samad/Documents/local-business-finder/local-business-finder-icon.png"
 PAGE_LAYOUT = "wide"
 
-# ============================================
-# File Paths
-# ============================================
+
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
-DATA_FOLDER = DATA_DIR  # Keep for backwards compatibility
+DATA_FOLDER = DATA_DIR  
 BOOKMARKS_FILE = DATA_DIR / "bookmarks.json"
 REVIEWS_FILE = DATA_DIR / "reviews.json"
 BUSINESSES_FILE = DATA_DIR / "businesses.json"
 
-# ============================================
-# API Configuration - Secure Environment-Based
-# ============================================
 
-# ============================================
-# FOURSQUARE API Configuration (Primary)
-# ============================================
 
 FOURSQUARE_API_KEY = os.environ.get("FOURSQUARE_API_KEY", "")
 
-# Enable/Disable Foursquare API usage
-# Set via: export USE_FOURSQUARE_API="true" or "false"
 USE_FOURSQUARE_API = os.environ.get("USE_FOURSQUARE_API", "false").lower() == "true"
 
-# Foursquare API Endpoints (updated for v3)
+
 FOURSQUARE_PLACES_API_BASE_URL = "https://api.foursquare.com/places/v3"
 FOURSQUARE_API_VERSION = "2024-03-01"
 
-# ============================================
-# Google API Configuration (Legacy/Backup)
-# ============================================
-# Google API Key - MUST be set via environment variable
-# Set via: export GOOGLE_API_KEY="your_api_key_here"
+
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 
-# Enable/Disable Google API usage
-# Set via: export USE_GOOGLE_API="true" or "false"
 USE_GOOGLE_API = os.environ.get("USE_GOOGLE_API", "false").lower() == "true"
 
-# Google API Endpoints (for reference/fallback)
 GOOGLE_PLACES_API_BASE_URL = "https://maps.googleapis.com/maps/api/place"
 GOOGLE_GEOCODING_API_BASE_URL = "https://maps.googleapis.com/maps/api/geocode"
 
 
-# API Configuration (shared settings)
+
 API_TIMEOUT = 30  # seconds
 API_MAX_RETRIES = 3
-API_RETRY_DELAY = 1  # base delay in seconds (exponential backoff)
+API_RETRY_DELAY = 1  
 
-# Cache Configuration
+
 CACHE_ENABLED = True
 CACHE_TTL = 3600  # Time-to-live in seconds (1 hour)
 CACHE_MAX_SIZE = 1000  # Maximum number of cached items
@@ -70,20 +50,18 @@ LOG_API_REQUESTS = os.environ.get("LOG_API_REQUESTS", "true").lower() == "true"
 LOG_FILE_PATH = BASE_DIR / "logs" / "app.log"
 
 # Search settings
-DEFAULT_SEARCH_RADIUS = 10  # in kilometers
+DEFAULT_SEARCH_RADIUS = 10  
 MAX_SEARCH_RADIUS = 50  # maximum search radius in km
 MIN_SEARCH_RADIUS = 1  # minimum search radius in km
 SEARCH_RADIUS_OPTIONS = [1, 2, 5, 10, 15, 20, 25, 30, 40, 50]
 
-# ============================================
-# Default Location (Abuja, Nigeria)
-# ============================================
+
 # Central Abuja coordinates as default
 DEFAULT_LATITUDE = 9.0765
 DEFAULT_LONGITUDE = 7.3986
 DEFAULT_LOCATION_NAME = "Abuja, Nigeria"
 
-# Available location presets for quick selection
+
 LOCATION_PRESETS = [
     {"name": "Abuja (Central)", "lat": 9.0765, "lng": 7.3986},
     {"name": "Gwagwa", "lat": 9.1386, "lng": 7.3324},
@@ -99,9 +77,7 @@ LOCATION_PRESETS = [
     {"name": "Airport (ABV)", "lat": 9.0062, "lng": 7.3196},
 ]
 
-# ============================================
-# Business Categories
-# ============================================
+
 BUSINESS_CATEGORIES = [
     "All",
     "Restaurant",
@@ -125,22 +101,16 @@ BUSINESS_CATEGORIES = [
     "Jewelry",
 ]
 
-# ============================================
-# Filter Options
-# ============================================
+
 DISTANCE_OPTIONS = [1, 2, 5, 10, 15, 20, 25, 30, 40, 50]
 RATING_OPTIONS = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
 PRICE_LEVELS = ["₦", "₦₦", "₦₦₦", "₦₦₦₦"]
 
-# ============================================
-# UI Settings
-# ============================================
+
 RESULTS_PER_PAGE = 20
 MAX_RESULTS_DISPLAY = 50
 
-# ============================================
-# Success/Error Messages
-# ============================================
+
 SUCCESS_MESSAGES = {
     "bookmark_added": "✅ Business bookmarked successfully!",
     "bookmark_removed": "🗑️ Bookmark removed.",
