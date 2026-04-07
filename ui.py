@@ -711,6 +711,33 @@ def render_write_review_page():
         if cancelled:
             st.session_state.current_page = "search"
             st.rerun()
+def main():
+    """Main entry point for the Streamlit application."""
+    initialize_session_state()
+    render_sidebar()
+    
+    current_page = st.session_state.current_page
+    
+    if current_page == "search":
+        render_search_page()
+    elif current_page == "location_input":
+        render_location_input_page()
+    elif current_page == "dashboard":
+        render_dashboard()
+    elif current_page == "bookmarks":
+        render_bookmarks_page()
+    elif current_page == "reviews":
+        render_reviews_page()
+    elif current_page == "write_review":
+        render_write_review_page()
+    elif current_page == "business_details":
+        render_business_details_page()
+    else:
+        render_search_page()
+
+
+if __name__ == "__main__":
+    main()
 
 
 
